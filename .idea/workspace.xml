@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="Update plugin info" />
+    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="Fix texture pack">
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/braid.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/braid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/dots.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/dots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/goldplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/goldplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/hazard.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/hazard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/hazardorange.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/hazardorange.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/mosaic.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/mosaic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/platex.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/platex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/rust.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/rust.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/wireframe.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/assets/blockentitiesplus/models/item/wireframe.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,11 +114,20 @@
       <option name="project" value="LOCAL" />
       <updated>1721114166173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix texture pack">
+      <option name="closed" value="true" />
+      <created>1721114420436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721114420436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update plugin info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update plugin info" />
+    <MESSAGE value="Fix texture pack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix texture pack" />
   </component>
 </project>

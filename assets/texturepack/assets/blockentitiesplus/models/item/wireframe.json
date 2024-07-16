@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cube_all",
     "textures": {
-        "all": "blockentities:block/wireframe"
+        "all": "blockentitiesplus:block/wireframe"
     }
 }
