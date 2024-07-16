@@ -1,11 +1,11 @@
-package im.dnn.BlockEntities.Listeners;
+package fr.artcas2.BlockEntitiesPlus.Listeners;
 
-import im.dnn.BlockEntities.BlockEntities;
-import im.dnn.BlockEntities.Constants.Keys;
-import im.dnn.BlockEntities.Constants.Permissions;
-import im.dnn.BlockEntities.Managers.BlockManager;
-import im.dnn.BlockEntities.Models.BlockItem;
-import im.dnn.BlockEntities.Utils.Helpers;
+import fr.artcas2.BlockEntitiesPlus.Managers.BlockManager;
+import fr.artcas2.BlockEntitiesPlus.Models.BlockItem;
+import fr.artcas2.BlockEntitiesPlus.Utils.Helpers;
+import fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus;
+import fr.artcas2.BlockEntitiesPlus.Constants.Keys;
+import fr.artcas2.BlockEntitiesPlus.Constants.Permissions;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -17,10 +17,10 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class BlockListener implements Listener {
-    private BlockEntities plugin;
+    private BlockEntitiesPlus plugin;
     private BlockManager blockManager;
 
-    public BlockListener (BlockEntities plugin, BlockManager blockManager) {
+    public BlockListener (BlockEntitiesPlus plugin, BlockManager blockManager) {
         this.plugin = plugin;
         this.blockManager = blockManager;
     }

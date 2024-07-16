@@ -1,7 +1,7 @@
-package im.dnn.BlockEntities.Utils;
+package fr.artcas2.BlockEntitiesPlus.Utils;
 
-import im.dnn.BlockEntities.BlockEntities;
-import im.dnn.BlockEntities.Constants.Keys;
+import fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus;
+import fr.artcas2.BlockEntitiesPlus.Constants.Keys;
 import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -18,7 +18,7 @@ public class Helpers {
         return player.isOp() || player.hasPermission(permission);
     }
 
-    public static void sendMessageToOpPlayers (BlockEntities plugin, String message) {
+    public static void sendMessageToOpPlayers (BlockEntitiesPlus plugin, String message) {
         for (Player player : plugin.getServer().getOnlinePlayers()) {
             if (player.isOp()) {
                 player.sendMessage(message);
@@ -30,7 +30,7 @@ public class Helpers {
         sender.sendMessage(format(message));
     }
 
-    public static void sendMessage (BlockEntities plugin, CommandSender sender, String pathToMessage) {
+    public static void sendMessage (BlockEntitiesPlus plugin, CommandSender sender, String pathToMessage) {
         String prefix = plugin.settings.getString(Keys.MESSAGES_PREFIX);
         String message = plugin.settings.getString(pathToMessage);
         sendFormattedMessage(sender, prefix + message);

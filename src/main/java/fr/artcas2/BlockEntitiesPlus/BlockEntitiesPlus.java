@@ -1,16 +1,16 @@
-package im.dnn.BlockEntities;
+package fr.artcas2.BlockEntitiesPlus;
 
-import im.dnn.BlockEntities.Commands.BlockCommand;
-import im.dnn.BlockEntities.Commands.MainCommand;
-import im.dnn.BlockEntities.Commands.MainCompleter;
-import im.dnn.BlockEntities.Constants.Commands;
-import im.dnn.BlockEntities.Listeners.BlockListener;
-import im.dnn.BlockEntities.Managers.BlockManager;
-import im.dnn.BlockEntities.Utils.Logger;
-import im.dnn.BlockEntities.Utils.Settings;
+import fr.artcas2.BlockEntitiesPlus.Commands.BlockCommand;
+import fr.artcas2.BlockEntitiesPlus.Commands.MainCommand;
+import fr.artcas2.BlockEntitiesPlus.Commands.MainCompleter;
+import fr.artcas2.BlockEntitiesPlus.Constants.Commands;
+import fr.artcas2.BlockEntitiesPlus.Listeners.BlockListener;
+import fr.artcas2.BlockEntitiesPlus.Managers.BlockManager;
+import fr.artcas2.BlockEntitiesPlus.Utils.Logger;
+import fr.artcas2.BlockEntitiesPlus.Utils.Settings;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class BlockEntities extends JavaPlugin {
+public class BlockEntitiesPlus extends JavaPlugin {
     public Settings settings;
 
     @Override

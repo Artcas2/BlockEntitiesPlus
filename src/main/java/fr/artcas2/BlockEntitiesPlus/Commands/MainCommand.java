@@ -1,11 +1,11 @@
-package im.dnn.BlockEntities.Commands;
+package fr.artcas2.BlockEntitiesPlus.Commands;
 
-import im.dnn.BlockEntities.BlockEntities;
-import im.dnn.BlockEntities.Constants.Commands;
-import im.dnn.BlockEntities.Constants.Keys;
-import im.dnn.BlockEntities.Constants.Permissions;
-import im.dnn.BlockEntities.Models.BlockItem;
-import im.dnn.BlockEntities.Utils.Helpers;
+import fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus;
+import fr.artcas2.BlockEntitiesPlus.Constants.Commands;
+import fr.artcas2.BlockEntitiesPlus.Constants.Keys;
+import fr.artcas2.BlockEntitiesPlus.Constants.Permissions;
+import fr.artcas2.BlockEntitiesPlus.Models.BlockItem;
+import fr.artcas2.BlockEntitiesPlus.Utils.Helpers;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -14,10 +14,10 @@ import org.bukkit.entity.Player;
 import java.util.Map;
 
 public class MainCommand implements CommandExecutor {
-    private final BlockEntities plugin;
+    private final BlockEntitiesPlus plugin;
     private final BlockCommand blockCommand;
 
-    public MainCommand (BlockEntities plugin, BlockCommand blockCommand) {
+    public MainCommand (BlockEntitiesPlus plugin, BlockCommand blockCommand) {
         this.plugin = plugin;
         this.blockCommand = blockCommand;
     }

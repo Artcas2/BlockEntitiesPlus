@@ -1,21 +1,21 @@
-package im.dnn.BlockEntities.Commands;
+package fr.artcas2.BlockEntitiesPlus.Commands;
 
-import im.dnn.BlockEntities.BlockEntities;
-import im.dnn.BlockEntities.Constants.Keys;
-import im.dnn.BlockEntities.Constants.Permissions;
-import im.dnn.BlockEntities.Models.BlockItem;
-import im.dnn.BlockEntities.Utils.Helpers;
+import fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus;
+import fr.artcas2.BlockEntitiesPlus.Constants.Keys;
+import fr.artcas2.BlockEntitiesPlus.Constants.Permissions;
+import fr.artcas2.BlockEntitiesPlus.Models.BlockItem;
+import fr.artcas2.BlockEntitiesPlus.Utils.Helpers;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import java.util.*;
 
 public class BlockCommand {
-    private final BlockEntities plugin;
+    private final BlockEntitiesPlus plugin;
     public HashMap<String, BlockItem> blockTypes;
     public List<String> blockTypesKeys;
 
-    private HashMap<String, BlockItem> loadBlockList(BlockEntities plugin) {
+    private HashMap<String, BlockItem> loadBlockList(BlockEntitiesPlus plugin) {
         List<Map<?, ?>> blockList = plugin.settings.getMapList(Keys.BLOCKS);
         HashMap<String, BlockItem> blockTypesList = new HashMap<>();
 
@@ -33,7 +33,7 @@ public class BlockCommand {
         return new ArrayList<>(keySet);
     }
 
-    public BlockCommand(BlockEntities plugin) {
+    public BlockCommand(BlockEntitiesPlus plugin) {
         this.plugin = plugin;
         this.reload();
     }

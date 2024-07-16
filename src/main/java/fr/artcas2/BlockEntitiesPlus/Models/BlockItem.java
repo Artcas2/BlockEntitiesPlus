@@ -1,7 +1,7 @@
-package im.dnn.BlockEntities.Models;
+package fr.artcas2.BlockEntitiesPlus.Models;
 
-import im.dnn.BlockEntities.Constants.Keys;
-import im.dnn.BlockEntities.Utils.Helpers;
+import fr.artcas2.BlockEntitiesPlus.Utils.Helpers;
+import fr.artcas2.BlockEntitiesPlus.Constants.Keys;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;

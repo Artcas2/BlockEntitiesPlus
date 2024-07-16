@@ -1,4 +1,4 @@
-package im.dnn.BlockEntities.Constants;
+package fr.artcas2.BlockEntitiesPlus.Constants;
 
 public class Permissions {
     public static String RELOAD = "blockentities.reload";

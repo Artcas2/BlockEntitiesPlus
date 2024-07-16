@@ -1,4 +1,4 @@
-package im.dnn.BlockEntities.Constants;
+package fr.artcas2.BlockEntitiesPlus.Constants;
 
 public class Keys {
     public final static String DEBUG = "debug";

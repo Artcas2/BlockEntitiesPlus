@@ -1,4 +1,4 @@
-package im.dnn.BlockEntities.Constants;
+package fr.artcas2.BlockEntitiesPlus.Constants;
 
 import java.util.ArrayList;
 import java.util.List;

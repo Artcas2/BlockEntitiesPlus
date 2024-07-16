@@ -1,18 +1,18 @@
-package im.dnn.BlockEntities.Utils;
+package fr.artcas2.BlockEntitiesPlus.Utils;
 
-import im.dnn.BlockEntities.BlockEntities;
-import im.dnn.BlockEntities.Constants.Defaults;
-import im.dnn.BlockEntities.Constants.Keys;
+import fr.artcas2.BlockEntitiesPlus.Constants.Defaults;
+import fr.artcas2.BlockEntitiesPlus.Constants.Keys;
+import fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus;
 import org.bukkit.configuration.file.FileConfiguration;
 
 import java.util.List;
 import java.util.Map;
 
 public class Settings {
-    private BlockEntities plugin;
+    private BlockEntitiesPlus plugin;
     private FileConfiguration config;
 
-    public Settings (BlockEntities plugin) {
+    public Settings (BlockEntitiesPlus plugin) {
         this.plugin = plugin;
         this.setupConfig();
     }

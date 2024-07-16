@@ -1,12 +1,12 @@
-package im.dnn.BlockEntities.Utils;
+package fr.artcas2.BlockEntitiesPlus.Utils;
 
-import im.dnn.BlockEntities.BlockEntities;
+import fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus;
 
 public class Logger {
     static Logger singleton = null;
-    static BlockEntities plugin;
+    static BlockEntitiesPlus plugin;
 
-    public static void setPlugin (BlockEntities plugin) {
+    public static void setPlugin (BlockEntitiesPlus plugin) {
         Logger.plugin = plugin;
     }
 

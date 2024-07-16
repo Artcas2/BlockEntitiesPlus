@@ -1,9 +1,9 @@
-package im.dnn.BlockEntities.Managers;
+package fr.artcas2.BlockEntitiesPlus.Managers;
 
-import im.dnn.BlockEntities.BlockEntities;
-import im.dnn.BlockEntities.Models.BlockEntity;
-import im.dnn.BlockEntities.Models.BlockItem;
-import im.dnn.BlockEntities.Utils.Helpers;
+import fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus;
+import fr.artcas2.BlockEntitiesPlus.Models.BlockEntity;
+import fr.artcas2.BlockEntitiesPlus.Models.BlockItem;
+import fr.artcas2.BlockEntitiesPlus.Utils.Helpers;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
 import org.bukkit.Sound;
@@ -14,10 +14,10 @@ import org.bukkit.inventory.ItemStack;
 import java.util.HashMap;
 
 public class BlockManager {
-    private final BlockEntities plugin;
+    private final BlockEntitiesPlus plugin;
     private HashMap<String, BlockEntity> blockCollection;
 
-    public BlockManager (BlockEntities plugin) {
+    public BlockManager (BlockEntitiesPlus plugin) {
         blockCollection = new HashMap<>();
         this.plugin = plugin;
         this.preload();

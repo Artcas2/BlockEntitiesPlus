@@ -1,4 +1,4 @@
-package im.dnn.BlockEntities.Models;
+package fr.artcas2.BlockEntitiesPlus.Models;
 
 import org.bukkit.Location;
 import org.bukkit.Material;

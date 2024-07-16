@@ -1,6 +1,6 @@
-package im.dnn.BlockEntities.Commands;
+package fr.artcas2.BlockEntitiesPlus.Commands;
 
-import im.dnn.BlockEntities.Constants.Commands;
+import fr.artcas2.BlockEntitiesPlus.Constants.Commands;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;

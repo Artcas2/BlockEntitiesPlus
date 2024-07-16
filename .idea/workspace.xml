@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="" />
+    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/BlockEntitiesTexturePack.zip" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/BlockEntitiesPlusTexturePack.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/texturepack/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/BlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/BlockEntitiesPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Commands/BlockCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Commands/BlockCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Commands/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Commands/MainCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Commands/MainCompleter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Commands/MainCompleter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Constants/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Constants/Defaults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Defaults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Constants/Keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Keys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Constants/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Permissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Listeners/BlockListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Listeners/BlockListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Managers/BlockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Managers/BlockManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Models/BlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Models/BlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Models/BlockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Models/BlockItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Utils/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Utils/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Utils/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Utils/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Utils/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Utils/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,13 +46,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2NAD8N1NNdYdn7LWXwLIj0sOv33" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,9 +59,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Maven.BlockEntitiesPlus [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.package.executor&quot;: &quot;Run&quot;,
+    &quot;Remote JVM Debug.Debug Spigot.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -54,18 +79,34 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Debug Spigot" type="Remote">
-      <module name="BlockEntities" />
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <option name="AUTO_RESTART" value="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="5005" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
+    <configuration name="package" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method v="2" />
     </configuration>
   </component>
