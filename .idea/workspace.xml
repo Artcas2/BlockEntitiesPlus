@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="Remove legacy materials">
+    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="Update plugin info">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/locations.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Permissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Managers/BlockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Managers/BlockManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="im.dnn.BlockEntities" />
     </key>
   </component>
-  <component name="RunManager" selected="Remote JVM Debug.Debug Server">
+  <component name="RunManager" selected="Maven.package">
     <configuration name="package" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -152,13 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721116570315</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update plugin info">
+      <option name="closed" value="true" />
+      <created>1721117963203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721117963203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update plugin info" />
     <MESSAGE value="Fix texture pack" />
     <MESSAGE value="Remove legacy materials" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove legacy materials" />
+    <MESSAGE value="Update plugin info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update plugin info" />
   </component>
 </project>
