@@ -7,20 +7,20 @@ main: fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus
 api-version: 1.19
 
 commands:
-  blockentities:
+  blockentitiesplus:
     description: BlockEntities base command
-    usage: /blockentities help
+    usage: /blockentitiesplus help
 
 permissions:
-  blockentities.reload:
+  blockentitiesplus.reload:
     description: Allows to execute the reload command
     default: false
-  blockentities.get:
+  blockentitiesplus.get:
     description: Allows to use the get command to the players
     default: false
-  blockentities.place:
+  blockentitiesplus.place:
     description: Allows to place blocks to the players
     default: false
-  blockentities.break:
+  blockentitiesplus.break:
     description: Allows to break blocks to the players
     default: false
