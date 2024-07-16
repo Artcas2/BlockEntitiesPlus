@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/texturepack/BlockEntitiesTexturePack.zip" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/BlockEntitiesPlusTexturePack.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/texturepack/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/assets/texturepack/pack.mcmeta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/BlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/BlockEntitiesPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Commands/BlockCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Commands/BlockCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Commands/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Commands/MainCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Commands/MainCompleter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Commands/MainCompleter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Constants/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Constants/Defaults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Defaults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Constants/Keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Keys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Constants/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Constants/Permissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Listeners/BlockListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Listeners/BlockListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Managers/BlockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Managers/BlockManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Models/BlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Models/BlockEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Models/BlockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Models/BlockItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Utils/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Utils/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Utils/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Utils/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/dnn/BlockEntities/Utils/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Utils/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-    </list>
+    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="Update plugin info" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,6 +96,19 @@
       <option name="presentableId" value="Default" />
       <updated>1679097832851</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update plugin info">
+      <option name="closed" value="true" />
+      <created>1721114166172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721114166173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update plugin info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update plugin info" />
   </component>
 </project>
