@@ -28,9 +28,9 @@ public class BlockListener implements Listener {
     @EventHandler
     public void onBlockPlaced (BlockPlaceEvent event) {
         ItemStack item = event.getItemInHand();
-        Material material = item.getData().getItemType();
+        Material material = item.getType();
 
-        if (material.equals(Material.LEGACY_STONE) && item.getItemMeta().hasCustomModelData()) {
+        if (material.equals(Material.STONE) && item.getItemMeta().hasCustomModelData()) {
             Player player = event.getPlayer();
 
             if (!Helpers.hasPermission(player, Permissions.PLACE)) {

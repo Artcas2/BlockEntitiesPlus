@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 public class BlockItem {
-    private final Material BLOCK_MATERIAL = Material.LEGACY_STONE;
+    private final Material BLOCK_MATERIAL = Material.STONE;
     private String displayName;
     private List<String> lore;
     private int customModelData;
