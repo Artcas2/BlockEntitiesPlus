@@ -1,12 +1,10 @@
 package fr.artcas2.BlockEntitiesPlus.Managers;
 
-import com.google.common.base.Splitter;
 import fr.artcas2.BlockEntitiesPlus.BlockEntitiesPlus;
 import fr.artcas2.BlockEntitiesPlus.Models.BlockEntity;
 import fr.artcas2.BlockEntitiesPlus.Models.BlockItem;
 import fr.artcas2.BlockEntitiesPlus.Utils.Helpers;
 import org.bukkit.*;
-import org.bukkit.block.Block;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.ItemDisplay;
 import org.bukkit.entity.Player;
@@ -29,6 +27,10 @@ public class BlockManager {
         blockCollection = new HashMap<>();
         this.plugin = plugin;
         this.preload();
+    }
+
+    public boolean checkBlock(Location location) {
+        return blockCollection.containsKey(Helpers.locationToString(location));
     }
 
     public void addBlock (Location location, BlockItem blockItem) {

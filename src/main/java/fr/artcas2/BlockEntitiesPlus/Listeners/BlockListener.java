@@ -51,7 +51,7 @@ public class BlockListener implements Listener {
             Location location = event.getClickedBlock().getLocation();
             Player player = event.getPlayer();
 
-            if (!Helpers.hasPermission(player, Permissions.BREAK)) {
+            if (blockManager.checkBlock(location) && !Helpers.hasPermission(player, Permissions.BREAK)) {
                 Helpers.sendMessage(this.plugin, player, Keys.MESSAGES_CANT_BREAK);
                 event.setCancelled(true);
                 return;

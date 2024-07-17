@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="Update plugin info">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/locations.yml" afterDir="false" />
+    <list default="true" id="c132aeae-4fc4-43f8-85cf-bc810c108b98" name="Changes" comment="Fix unbreakable blocks when restarting the server (by loading chunks)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Listeners/BlockListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Listeners/BlockListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Managers/BlockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/artcas2/BlockEntitiesPlus/Managers/BlockManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.BlockEntitiesPlus [package].executor": "Run",
-    "Maven.package.executor": "Run",
-    "Remote JVM Debug.Debug Server.executor": "Debug",
-    "Remote JVM Debug.Debug Spigot.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.BlockEntitiesPlus [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.package.executor&quot;: &quot;Run&quot;,
+    &quot;Remote JVM Debug.Debug Server.executor&quot;: &quot;Debug&quot;,
+    &quot;Remote JVM Debug.Debug Spigot.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/texturepack" />
@@ -159,13 +159,22 @@
       <option name="project" value="LOCAL" />
       <updated>1721117963203</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix unbreakable blocks when restarting the server (by loading chunks)">
+      <option name="closed" value="true" />
+      <created>1721154166899</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721154166900</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix texture pack" />
     <MESSAGE value="Remove legacy materials" />
     <MESSAGE value="Update plugin info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update plugin info" />
+    <MESSAGE value="Fix unbreakable blocks when restarting the server (by loading chunks)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix unbreakable blocks when restarting the server (by loading chunks)" />
   </component>
 </project>
