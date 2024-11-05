@@ -46,7 +46,7 @@ public class BlockListener implements Listener {
     }
 
     @EventHandler
-    public void onWantBlockBroke (PlayerInteractEvent event) {
+    public void onWantBlockBroke(PlayerInteractEvent event) {
         if (event.getAction().equals(Action.LEFT_CLICK_BLOCK)) {
             Location location = event.getClickedBlock().getLocation();
             Player player = event.getPlayer();

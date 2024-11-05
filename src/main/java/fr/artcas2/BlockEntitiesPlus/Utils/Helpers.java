@@ -10,6 +10,7 @@ public class Helpers {
     public static String locationToString (Location location) {
         return location.getWorld().getName() + "_z" + location.getBlockX() + "y" + location.getBlockY() + "z" + location.getBlockZ();
     }
+
     public static String format(String message) {
         return message.replaceAll("&", "§");
     }
